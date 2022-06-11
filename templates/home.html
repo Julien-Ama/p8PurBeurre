@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Page d'accueil</title>
+</head>
+<body>
+    <header>
+        <h1 class="titre">
+            <img src="static/logo.bmp"> Pur Beurre
+        </h1>
+    </header>
+
+    <h2>
+        "...Du gras, oui, <br> mais de qualité !"
+    </h2>
+<!--    <ul>-->
+<!--        <li>-->
+<!--            <a href="/">Accueil</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="/articles/">Articles</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="/contact/">Contact</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+
+
+<form>
+    <fieldset>
+
+        <label>Chercher le substitut de votre produit</label>
+        <input id="questionByUser" type="text" name="nom">
+        <input id="button-ask-question" type="button" value="Recherche">
+    </fieldset>
+</form>
+<!--    <h1 class="po">Bienvenue</h1>-->
+<!--    <h2>Bienvenue</h2>-->
+
+</body>
+</html>
