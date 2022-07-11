@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/p8Nutella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/p8Nutella/startbootstrap-creative" vcs="Git" />
   </component>
 </project>
