@@ -43,7 +43,27 @@ input {
     filter: alpha(opacity=40);
 }
 
-.img-fluid {
+.portfolio-box {
     margin-bottom : 30px
+
+}
+
+.nutriscore {
+
+    width: 75px;
+    height: 75px;
+
+    border-radius: 200px;
+    border: double 15px rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.7);
+    background-clip: padding-box;
+    position: absolute;
+	right: 20px;
+	transition: left 1s, transform 1s;
+	white-space: nowrap;
+}
+
+.aliment-recherche {
+    margin-top: 15%;
 
 }
