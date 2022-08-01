@@ -9,5 +9,8 @@ def contact_view(request):
     # return HttpResponse('contactez nous')
     return render(request, 'contact.html')
 
-def articles_view(request):
-    return render(request, 'articles.html')
+def resultats_view(request):
+    return render(request, 'resultats.html')
+
+def aliment_view(request):
+    return render(request, 'aliment.html')
