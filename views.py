@@ -14,3 +14,6 @@ def resultats_view(request):
 
 def aliment_view(request):
     return render(request, 'aliment.html')
+
+def compte_view(request):
+    return render(request, 'compte.html')
