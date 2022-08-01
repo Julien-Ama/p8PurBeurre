@@ -68,9 +68,12 @@ input {
 
 }
 
-.mt-5 {
+.mail {
 
-
-.h4 mb-2 {
-
+    background-clip: padding-box;
+    position: absolute;
+	right: 45%;
+    left: 45%;
+    max-right:
+    width: 200px;
 }
